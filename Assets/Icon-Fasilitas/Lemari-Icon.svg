@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 42.056 42.056">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #febc11;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #fca000;
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        fill: #fca000;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5, .cls-6 {
+        fill: none;
+      }
+
+      .cls-6 {
+        clip-path: url(#clip);
+      }
+    </style>
+    <clipPath id="clip">
+      <use xlink:href="#fill"/>
+    </clipPath>
+  </defs>
+  <g id="Lemari-Icon" transform="translate(-1474.425 -226.661)">
+    <rect id="Rectangle_300" data-name="Rectangle 300" class="cls-1" width="42.056" height="42.056" transform="translate(1474.425 226.661)"/>
+    <g id="Rectangle_275" data-name="Rectangle 275" class="cls-2" transform="translate(1482.522 230.998)">
+      <rect class="cls-4" width="25.861" height="30.594"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="24.861" height="29.594"/>
+    </g>
+    <g id="Rectangle_303" data-name="Rectangle 303" class="cls-2" transform="translate(1484.51 232.986)">
+      <rect class="cls-4" width="21.885" height="26.618"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="20.885" height="25.618"/>
+    </g>
+    <g id="Rectangle_304" data-name="Rectangle 304" class="cls-2" transform="translate(1495.316 232.986)">
+      <rect id="fill" class="cls-4" width="0.274" height="26.618"/>
+      <path class="cls-6" d="M0,0.5h0.27381274104118347M0.5,0v26.618310928344727M0.27381274104118347,26.118310928344727h-0.27381274104118347M-0.22618725895881653,26.618310928344727v-26.618310928344727"/>
+    </g>
+    <g id="Rectangle_305" data-name="Rectangle 305" class="cls-2" transform="translate(1493.108 245.914)">
+      <rect class="cls-4" width="1.195" height="1.195" rx="0.598"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="0.195" height="0.195" rx="0.098"/>
+    </g>
+    <g id="Rectangle_306" data-name="Rectangle 306" class="cls-2" transform="translate(1496.602 245.914)">
+      <rect class="cls-4" width="1.195" height="1.195" rx="0.598"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="0.195" height="0.195" rx="0.098"/>
+    </g>
+    <g id="Rectangle_302" data-name="Rectangle 302" class="cls-3" transform="translate(1505.07 260.93)">
+      <rect class="cls-4" width="3.313" height="3.976"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="2.313" height="2.976"/>
+    </g>
+    <g id="Rectangle_301" data-name="Rectangle 301" class="cls-3" transform="translate(1482.522 260.93)">
+      <rect class="cls-4" width="3.313" height="3.976"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="2.313" height="2.976"/>
+    </g>
+  </g>
+</svg>

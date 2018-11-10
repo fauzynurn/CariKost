@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42.056 42.056">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #febc11;
+      }
+
+      .cls-2, .cls-4 {
+        stroke: #fca000;
+      }
+
+      .cls-3 {
+        fill: #fca000;
+      }
+
+      .cls-4, .cls-6 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="AC-Icon" transform="translate(-1402.404 -162)">
+    <rect id="Rectangle_241" data-name="Rectangle 241" class="cls-1" width="42.056" height="42.056" transform="translate(1402.404 162)"/>
+    <g id="Group_142" data-name="Group 142" transform="translate(1405.022 170.937)">
+      <g id="Rectangle_242" data-name="Rectangle 242" class="cls-2" transform="translate(0)">
+        <rect class="cls-5" width="36.809" height="15.771" rx="3"/>
+        <rect class="cls-6" x="0.5" y="0.5" width="35.809" height="14.771" rx="2.5"/>
+      </g>
+      <rect id="Rectangle_243" data-name="Rectangle 243" class="cls-3" width="36.809" height="0.526" transform="translate(0 3.68)"/>
+      <rect id="Rectangle_244" data-name="Rectangle 244" class="cls-3" width="36.809" height="0.526" transform="translate(0 6.308)"/>
+      <rect id="Rectangle_245" data-name="Rectangle 245" class="cls-3" width="36.809" height="0.526" transform="translate(0 8.937)"/>
+      <path id="Rectangle_246" data-name="Rectangle 246" class="cls-3" d="M2.1,0H27.336a2.1,2.1,0,0,1,2.1,2.1v0a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0v0A2.1,2.1,0,0,1,2.1,0Z" transform="translate(3.69 13.668)"/>
+      <path id="Path_74" data-name="Path 74" class="cls-4" d="M-1763.648,3351.465a1.405,1.405,0,0,0-.254,1.971,1.528,1.528,0,0,1,0,1.971" transform="translate(1776.189 -3334.398)"/>
+      <path id="Path_75" data-name="Path 75" class="cls-4" d="M-1763.648,3351.465a1.405,1.405,0,0,0-.254,1.971,1.528,1.528,0,0,1,0,1.971" transform="translate(1787.987 -3334.398)"/>
+      <path id="Path_76" data-name="Path 76" class="cls-4" d="M-1763.648,3351.465a3.833,3.833,0,0,0-.254,3.54,4.451,4.451,0,0,1,0,3.54" transform="translate(1782.088 -3334.398)"/>
+      <path id="Path_77" data-name="Path 77" class="cls-4" d="M-1763.648,3351.465a2.427,2.427,0,0,0-.254,2.739,2.753,2.753,0,0,1,0,2.739" transform="translate(1779.138 -3334.398)"/>
+      <path id="Path_78" data-name="Path 78" class="cls-4" d="M-1763.648,3351.465a2.427,2.427,0,0,0-.254,2.739,2.753,2.753,0,0,1,0,2.739" transform="translate(1785.037 -3334.398)"/>
+    </g>
+  </g>
+</svg>

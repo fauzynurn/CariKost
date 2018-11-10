@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42.056 42.056">
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #febc11;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #fca000;
+      }
+
+      .cls-4 {
+        font-size: 8px;
+      }
+
+      .cls-4, .cls-5 {
+        font-family: Ubuntu-Bold, Ubuntu;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        fill: #fca000;
+        font-size: 9px;
+      }
+
+      .cls-6 {
+        stroke: none;
+      }
+
+      .cls-7 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Wifi-Icon" transform="translate(-1703.539 -168)">
+    <rect id="Rectangle_247" data-name="Rectangle 247" class="cls-1" width="42.056" height="42.056" transform="translate(1703.539 168)"/>
+    <g id="Group_144" data-name="Group 144" transform="translate(1706.693 181.668)">
+      <g id="Rectangle_248" data-name="Rectangle 248" class="cls-2" transform="translate(0 0)">
+        <rect class="cls-6" width="35.747" height="14.72" rx="7.36"/>
+        <rect class="cls-7" x="0.5" y="0.5" width="34.747" height="13.72" rx="6.86"/>
+      </g>
+      <g id="Rectangle_249" data-name="Rectangle 249" class="cls-3" transform="translate(17.874 0)">
+        <path class="cls-6" d="M7.36,0h3.154a7.36,7.36,0,0,1,7.36,7.36v0a7.36,7.36,0,0,1-7.36,7.36H0a0,0,0,0,1,0,0V7.36A7.36,7.36,0,0,1,7.36,0Z"/>
+        <path class="cls-7" d="M7.36.5h3.154a6.86,6.86,0,0,1,6.86,6.86v0a6.86,6.86,0,0,1-6.86,6.86H.754A.254.254,0,0,1,.5,13.965V7.36A6.86,6.86,0,0,1,7.36.5Z"/>
+      </g>
+      <text id="Wi" class="cls-4" transform="translate(10.206 10.332)"><tspan x="-4.948" y="0">Wi</tspan></text>
+      <text id="Fi" class="cls-5" transform="translate(26.605 10.332)"><tspan x="-3.883" y="0">Fi</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42.056 42.056">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #febc11;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #fca000;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #fca000;
+        font-family: Montserrat-SemiBold, Montserrat;
+        font-weight: 600;
+      }
+
+      .cls-4 {
+        font-size: 7px;
+      }
+
+      .cls-5 {
+        font-size: 10px;
+      }
+
+      .cls-6 {
+        stroke: none;
+      }
+
+      .cls-7 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Kasur-Icon" transform="translate(-1343 -162)">
+    <rect id="Rectangle_274" data-name="Rectangle 274" class="cls-1" width="42.056" height="42.056" transform="translate(1343 162)"/>
+    <g id="Group_171" data-name="Group 171" transform="translate(1347.048 178.126)">
+      <g id="Rectangle_281" data-name="Rectangle 281" class="cls-2" transform="translate(0)">
+        <path class="cls-6" d="M1.745,0h0A1.745,1.745,0,0,1,3.49,1.745v12.8a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V1.745A1.745,1.745,0,0,1,1.745,0Z"/>
+        <path class="cls-7" d="M1.745.5h0A1.245,1.245,0,0,1,2.99,1.745V13.793a.249.249,0,0,1-.249.249H.749A.249.249,0,0,1,.5,13.793V1.745A1.245,1.245,0,0,1,1.745.5Z"/>
+      </g>
+      <g id="Rectangle_283" data-name="Rectangle 283" class="cls-2" transform="translate(30.247 7.562)">
+        <path class="cls-6" d="M1.745,0h0A1.745,1.745,0,0,1,3.49,1.745V6.98a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V1.745A1.745,1.745,0,0,1,1.745,0Z"/>
+        <path class="cls-7" d="M1.745.5h0A1.245,1.245,0,0,1,2.99,1.745V6.231a.249.249,0,0,1-.249.249H.749A.249.249,0,0,1,.5,6.231V1.745A1.245,1.245,0,0,1,1.745.5Z"/>
+      </g>
+      <g id="Rectangle_282" data-name="Rectangle 282" class="cls-2" transform="translate(0 11.634) rotate(-90)">
+        <rect class="cls-6" width="4.653" height="33.737" rx="2.327"/>
+        <rect class="cls-7" x="0.5" y="0.5" width="3.653" height="32.737" rx="1.827"/>
+      </g>
+      <g id="Rectangle_284" data-name="Rectangle 284" class="cls-3" transform="translate(2.908 7.562) rotate(-90)">
+        <path class="cls-6" d="M0,0H2.829a0,0,0,0,1,0,0V25.091A2.829,2.829,0,0,1,0,27.921H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z"/>
+        <path class="cls-7" d="M.729.5H2.1a.229.229,0,0,1,.229.229V25.82a1.6,1.6,0,0,1-1.6,1.6h0A.229.229,0,0,1,.5,27.192V.729A.229.229,0,0,1,.729.5Z"/>
+      </g>
+      <g id="Rectangle_285" data-name="Rectangle 285" class="cls-2" transform="translate(12.797 7.562) rotate(-90)">
+        <path class="cls-6" d="M0,0H3.537a0,0,0,0,1,0,0V14.5A3.537,3.537,0,0,1,0,18.032H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z"/>
+        <path class="cls-7" d="M.754.5H2.783a.254.254,0,0,1,.254.254v14.5A2.283,2.283,0,0,1,.754,17.532h0A.254.254,0,0,1,.5,17.278V.754A.254.254,0,0,1,.754.5Z"/>
+      </g>
+      <g id="Rectangle_286" data-name="Rectangle 286" class="cls-3" transform="translate(4.072 2.611)">
+        <path class="cls-6" d="M2,0H6.144a2,2,0,0,1,2,2v.829a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z"/>
+        <path class="cls-7" d="M1.872.5h4.4A1.372,1.372,0,0,1,7.644,1.872v0a.457.457,0,0,1-.457.457H.957A.457.457,0,0,1,.5,1.872v0A1.372,1.372,0,0,1,1.872.5Z"/>
+      </g>
+    </g>
+    <text id="z" class="cls-4" transform="translate(1360 175)"><tspan x="0" y="0">z</tspan></text>
+    <text id="z-2" data-name="z" class="cls-5" transform="translate(1355 178)"><tspan x="0" y="0">z</tspan></text>
+  </g>
+</svg>

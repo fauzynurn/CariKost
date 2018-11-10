@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 227 54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fca000;
+      }
+
+      .cls-1, .cls-3 {
+        font-size: 40px;
+        font-family: Ubuntu-Bold, Ubuntu;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-family: Ubuntu-Medium, Ubuntu;
+        font-weight: 500;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: url(#pattern);
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 1009 1010">
+      <image width="1009" height="1010" xlink:href="../../Documents/carikost(mobile).png"/>
+    </pattern>
+  </defs>
+  <g id="LOGO_detail_" data-name="LOGO(detail)" transform="translate(-75 -99)">
+    <g id="Group_124" data-name="Group 124" transform="translate(32 82)">
+      <text id="CariKost" class="cls-1" transform="translate(189 61)"><tspan x="-80.46" y="0">Cari</tspan><tspan class="cls-2" y="0">Kost</tspan></text>
+      <text id="CariKost-2" data-name="CariKost" class="cls-3" transform="translate(189 58)"><tspan x="-80.46" y="0">Cari</tspan><tspan class="cls-2" y="0">Kost</tspan></text>
+    </g>
+    <rect id="carikost_mobile_" data-name="carikost(mobile)" class="cls-4" width="54" height="54" rx="20" transform="translate(75 99)"/>
+  </g>
+</svg>

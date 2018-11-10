@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42.056 42.056">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #febc11;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #fca000;
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        fill: #fca000;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Dispenser-Icon" transform="translate(-1417.649 -332.326)">
+    <rect id="Rectangle_342" data-name="Rectangle 342" class="cls-1" width="42.056" height="42.056" transform="translate(1417.649 332.326)"/>
+    <g id="Rectangle_344" data-name="Rectangle 344" class="cls-2" transform="translate(1431.317 352.303)">
+      <path class="cls-4" d="M5,0H9.72a5,5,0,0,1,5,5V17.874a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z"/>
+      <path class="cls-5" d="M5,.5H9.72A4.5,4.5,0,0,1,14.22,5V16.874a.5.5,0,0,1-.5.5H1a.5.5,0,0,1-.5-.5V5A4.5,4.5,0,0,1,5,.5Z"/>
+    </g>
+    <g id="Rectangle_349" data-name="Rectangle 349" class="cls-3" transform="translate(1442.357 358.611) rotate(180)">
+      <path class="cls-4" d="M3.68,0h0A3.68,3.68,0,0,1,7.36,3.68V6.308a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V3.68A3.68,3.68,0,0,1,3.68,0Z"/>
+      <path class="cls-5" d="M3.68.5h0A3.18,3.18,0,0,1,6.86,3.68V5.455a.353.353,0,0,1-.353.353H.853A.353.353,0,0,1,.5,5.455V3.68A3.18,3.18,0,0,1,3.68.5Z"/>
+    </g>
+    <g id="Rectangle_345" data-name="Rectangle 345" class="cls-2" transform="translate(1433.946 361.24)">
+      <path class="cls-4" d="M4.731,0h0A4.731,4.731,0,0,1,9.463,4.731V8.937a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4.731A4.731,4.731,0,0,1,4.731,0Z"/>
+      <path class="cls-5" d="M4.731.5h0A4.231,4.231,0,0,1,8.963,4.731V7.967a.47.47,0,0,1-.47.47H.97a.47.47,0,0,1-.47-.47V4.731A4.231,4.231,0,0,1,4.731.5Z"/>
+    </g>
+    <g id="Rectangle_348" data-name="Rectangle 348" class="cls-3" transform="translate(1433.946 368.074)">
+      <rect class="cls-4" width="9.463" height="2.103"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="8.463" height="1.103"/>
+    </g>
+    <g id="Rectangle_346" data-name="Rectangle 346" class="cls-3" transform="translate(1436.049 363.868)">
+      <path class="cls-4" d="M.789,0h0a.789.789,0,0,1,.789.789v1.84a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V.789A.789.789,0,0,1,.789,0Z"/>
+      <path class="cls-5" d="M.789.5h0a.289.289,0,0,1,.289.289V2.1a.032.032,0,0,1-.032.032H.532A.032.032,0,0,1,.5,2.1V.789A.289.289,0,0,1,.789.5Z"/>
+    </g>
+    <g id="Rectangle_347" data-name="Rectangle 347" class="cls-3" transform="translate(1439.729 363.868)">
+      <path class="cls-4" d="M.789,0h0a.789.789,0,0,1,.789.789v1.84a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V.789A.789.789,0,0,1,.789,0Z"/>
+      <path class="cls-5" d="M.789.5h0a.289.289,0,0,1,.289.289V2.1a.032.032,0,0,1-.032.032H.532A.032.032,0,0,1,.5,2.1V.789A.289.289,0,0,1,.789.5Z"/>
+    </g>
+    <g id="Rectangle_350" data-name="Rectangle 350" class="cls-2" transform="translate(1433.739 337.583)">
+      <path class="cls-4" d="M2.244,0H7.631A2.244,2.244,0,0,1,9.876,2.244v8.063a4.938,4.938,0,0,1-4.938,4.938h0A4.938,4.938,0,0,1,0,10.307V2.244A2.244,2.244,0,0,1,2.244,0Z"/>
+      <path class="cls-5" d="M2.4.5H7.474a1.9,1.9,0,0,1,1.9,1.9v7.906a4.438,4.438,0,0,1-4.438,4.438h0A4.438,4.438,0,0,1,.5,10.307V2.4A1.9,1.9,0,0,1,2.4.5Z"/>
+    </g>
+    <g id="Rectangle_351" data-name="Rectangle 351" class="cls-2" transform="translate(1433.214 337.583)">
+      <path class="cls-4" d="M2.1,0H8.824a2.1,2.1,0,0,1,2.1,2.1v0A1.051,1.051,0,0,1,9.876,3.154H1.051A1.051,1.051,0,0,1,0,2.1v0A2.1,2.1,0,0,1,2.1,0Z"/>
+      <path class="cls-5" d="M2.008.5H8.919a1.508,1.508,0,0,1,1.508,1.508v0a.646.646,0,0,1-.646.646H1.146A.646.646,0,0,1,.5,2.008v0A1.508,1.508,0,0,1,2.008.5Z"/>
+    </g>
+    <g id="Rectangle_352" data-name="Rectangle 352" class="cls-2" transform="translate(1440.954 341.789)">
+      <rect class="cls-4" width="3.187" height="1.722" rx="0.861"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="2.187" height="0.722" rx="0.361"/>
+    </g>
+    <g id="Rectangle_357" data-name="Rectangle 357" class="cls-2" transform="translate(1433.214 341.789)">
+      <rect class="cls-4" width="3.187" height="1.722" rx="0.861"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="2.187" height="0.722" rx="0.361"/>
+    </g>
+    <g id="Rectangle_353" data-name="Rectangle 353" class="cls-2" transform="translate(1440.954 343.942)">
+      <rect class="cls-4" width="3.187" height="1.722" rx="0.861"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="2.187" height="0.722" rx="0.361"/>
+    </g>
+    <g id="Rectangle_356" data-name="Rectangle 356" class="cls-2" transform="translate(1433.214 343.942)">
+      <rect class="cls-4" width="3.187" height="1.722" rx="0.861"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="2.187" height="0.722" rx="0.361"/>
+    </g>
+    <g id="Rectangle_354" data-name="Rectangle 354" class="cls-2" transform="translate(1440.954 346.094)">
+      <rect class="cls-4" width="3.187" height="1.722" rx="0.861"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="2.187" height="0.722" rx="0.361"/>
+    </g>
+    <g id="Rectangle_358" data-name="Rectangle 358" class="cls-2" transform="translate(1433.214 346.094)">
+      <rect class="cls-4" width="3.187" height="1.722" rx="0.861"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="2.187" height="0.722" rx="0.361"/>
+    </g>
+    <g id="Rectangle_355" data-name="Rectangle 355" class="cls-2" transform="translate(1444.141 352.829) rotate(180)">
+      <path class="cls-4" d="M3.154,0H7.773a3.154,3.154,0,0,1,3.154,3.154v0A1.051,1.051,0,0,1,9.876,4.206H1.051A1.051,1.051,0,0,1,0,3.154v0A3.154,3.154,0,0,1,3.154,0Z"/>
+      <path class="cls-5" d="M3.019.5h4.89a2.519,2.519,0,0,1,2.519,2.519v0a.687.687,0,0,1-.687.687H1.187A.687.687,0,0,1,.5,3.019v0A2.519,2.519,0,0,1,3.019.5Z"/>
+    </g>
+  </g>
+</svg>

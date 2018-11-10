@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 42.056 42.056">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-10, .cls-2 {
+        fill: #fca000;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        stroke: #fca000;
+        stroke-linejoin: round;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #febc11;
+      }
+
+      .cls-5 {
+        stroke-linecap: round;
+      }
+
+      .cls-10, .cls-6 {
+        stroke: none;
+      }
+
+      .cls-11, .cls-12, .cls-13, .cls-7, .cls-8, .cls-9 {
+        fill: none;
+      }
+
+      .cls-8 {
+        clip-path: url(#clip);
+      }
+
+      .cls-9 {
+        clip-path: url(#clip-2);
+      }
+
+      .cls-11 {
+        clip-path: url(#clip-3);
+      }
+
+      .cls-12 {
+        clip-path: url(#clip-4);
+      }
+
+      .cls-13 {
+        clip-path: url(#clip-5);
+      }
+    </style>
+    <clipPath id="clip">
+      <use xlink:href="#fill"/>
+    </clipPath>
+    <clipPath id="clip-2">
+      <use xlink:href="#fill-2"/>
+    </clipPath>
+    <clipPath id="clip-3">
+      <use xlink:href="#fill-3"/>
+    </clipPath>
+    <clipPath id="clip-4">
+      <use xlink:href="#fill-4"/>
+    </clipPath>
+    <clipPath id="clip-5">
+      <use xlink:href="#fill-5"/>
+    </clipPath>
+  </defs>
+  <g id="KamarMandi-Icon" transform="translate(-1343 -277.128)">
+    <rect id="Rectangle_314" data-name="Rectangle 314" class="cls-1" width="42.056" height="42.056" transform="translate(1343 277.128)"/>
+    <g id="Rectangle_322" data-name="Rectangle 322" class="cls-2" transform="translate(1349.067 309.957) rotate(-90)">
+      <rect class="cls-6" width="23.646" height="5.18" rx="2.59"/>
+      <rect class="cls-7" x="-0.5" y="-0.5" width="24.646" height="6.18" rx="3.09"/>
+    </g>
+    <rect id="Rectangle_326" data-name="Rectangle 326" class="cls-1" width="24.171" height="4.129" rx="2.064" transform="translate(1349.593 311.009) rotate(-90)"/>
+    <path id="Rectangle_327" data-name="Rectangle 327" class="cls-1" d="M1.818,0H20.25a1.818,1.818,0,0,1,1.818,1.818V3.637a0,0,0,0,1,0,0H1.818A1.818,1.818,0,0,1,0,1.818v0A1.818,1.818,0,0,1,1.818,0Z" transform="translate(1352.747 311.534) rotate(-90)"/>
+    <g id="Rectangle_323" data-name="Rectangle 323" class="cls-2" transform="translate(1348.262 299.207)">
+      <rect class="cls-6" width="2.092" height="12.327" rx="1.046"/>
+      <rect class="cls-7" x="0.5" y="0.5" width="1.092" height="11.327" rx="0.546"/>
+    </g>
+    <g id="Rectangle_319" data-name="Rectangle 319" class="cls-3" transform="translate(1364.507 303.37)">
+      <rect id="fill" class="cls-6"/>
+      <path class="cls-8" d="M0,-0.49998999999479565h0.000010000005204346962M0.5,0v0.000010000005204346962M0.000010000005204346962,0.5h-0.000010000005204346962M-0.49998999999479565,0.000010000005204346962v-0.000010000005204346962"/>
+    </g>
+    <g id="Rectangle_320" data-name="Rectangle 320" class="cls-3" transform="translate(1365.785 304.947)">
+      <rect id="fill-2" class="cls-6"/>
+      <path class="cls-9" d="M0,-0.49998999999479565h0.000010000005204346962M0.5,0v0.000010000005204346962M0.000010000005204346962,0.5h-0.000010000005204346962M-0.49998999999479565,0.000010000005204346962v-0.000010000005204346962"/>
+    </g>
+    <g id="Rectangle_324" data-name="Rectangle 324" class="cls-2" transform="translate(1377.702 299.207)">
+      <rect class="cls-6" width="2.092" height="12.327" rx="1.046"/>
+      <rect class="cls-7" x="0.5" y="0.5" width="1.092" height="11.327" rx="0.546"/>
+    </g>
+    <g id="Rectangle_315" data-name="Rectangle 315" class="cls-3" transform="translate(1347.737 299.207)">
+      <path class="cls-6" d="M5.76,0H26.822a5.76,5.76,0,0,1,5.76,5.76v0A5.236,5.236,0,0,1,27.346,11H5.236A5.236,5.236,0,0,1,0,5.76v0A5.76,5.76,0,0,1,5.76,0Z"/>
+      <path class="cls-7" d="M5.748.5H26.834a5.248,5.248,0,0,1,5.248,5.248v0A4.748,4.748,0,0,1,27.334,10.5H5.248A4.748,4.748,0,0,1,.5,5.748v0A5.248,5.248,0,0,1,5.748.5Z"/>
+    </g>
+    <g id="Rectangle_321" data-name="Rectangle 321" class="cls-3" transform="translate(1346.685 299.207)">
+      <rect class="cls-6" width="34.685" height="3.637" rx="1.818"/>
+      <rect class="cls-7" x="0.5" y="0.5" width="33.685" height="2.637" rx="1.318"/>
+    </g>
+    <g id="Path_80" data-name="Path 80" class="cls-4" transform="translate(1351.687 288.145)">
+      <path class="cls-6" d="M 2.616035461425781 3.199635744094849 C 1.219925403594971 3.199635744094849 0.4999954700469971 2.790565729141235 0.4999954700469971 2.61603569984436 C 0.4999954700469971 1.449245810508728 1.449245452880859 0.4999957680702209 2.616035461425781 0.4999957680702209 C 3.782825469970703 0.4999957680702209 4.732075691223145 1.449245810508728 4.732075691223145 2.61603569984436 C 4.732075691223145 2.790565729141235 4.012145519256592 3.199635744094849 2.616035461425781 3.199635744094849 Z"/>
+      <path class="cls-10" d="M 2.616035461425781 0.9999957084655762 C 1.788851261138916 0.9999957084655762 1.104825973510742 1.624743223190308 1.010969638824463 2.427138805389404 C 1.247467041015625 2.545815944671631 1.817617177963257 2.699635744094849 2.616035461425781 2.699635744094849 C 3.414453744888306 2.699635744094849 3.984603881835938 2.545815944671631 4.2211012840271 2.427138805389404 C 4.12724494934082 1.624743223190308 3.443219661712646 0.9999957084655762 2.616035461425781 0.9999957084655762 M 2.616035461425781 -4.291534423828125e-06 C 4.060835361480713 -4.291534423828125e-06 5.232075691223145 1.171235799789429 5.232075691223145 2.616035938262939 C 5.232075691223145 3.338435649871826 3.924055576324463 3.699635744094849 2.616035461425781 3.699635744094849 C 1.3080153465271 3.699635744094849 -4.76837158203125e-06 3.338435649871826 -4.76837158203125e-06 2.616035938262939 C -4.76837158203125e-06 1.171235799789429 1.17123556137085 -4.291534423828125e-06 2.616035461425781 -4.291534423828125e-06 Z"/>
+    </g>
+    <g id="Rectangle_331" data-name="Rectangle 331" class="cls-5" transform="translate(1354.04 292.899)">
+      <rect id="fill-3" class="cls-6" width="0.526" height="2.103" rx="0.263"/>
+      <path class="cls-11" d="M0,0.5h0.5256984233856201M0.5,0v2.1027936935424805M0.5256984233856201,1.6027936935424805h-0.5256984233856201M0.025698423385620117,2.1027936935424805v-2.1027936935424805"/>
+    </g>
+    <g id="Rectangle_332" data-name="Rectangle 332" class="cls-5" transform="translate(1352.988 292.373)">
+      <rect id="fill-4" class="cls-6" width="0.526" height="2.103" rx="0.263"/>
+      <path class="cls-12" d="M0,0.5h0.5256984233856201M0.5,0v2.1027936935424805M0.5256984233856201,1.6027936935424805h-0.5256984233856201M0.025698423385620117,2.1027936935424805v-2.1027936935424805"/>
+    </g>
+    <g id="Rectangle_333" data-name="Rectangle 333" class="cls-5" transform="translate(1355.091 292.373)">
+      <rect id="fill-5" class="cls-6" width="0.526" height="2.103" rx="0.263"/>
+      <path class="cls-13" d="M0,0.5h0.5256984233856201M0.5,0v2.1027936935424805M0.5256984233856201,1.6027936935424805h-0.5256984233856201M0.025698423385620117,2.1027936935424805v-2.1027936935424805"/>
+    </g>
+  </g>
+</svg>

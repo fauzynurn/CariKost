@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42.056 42.056">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #febc11;
+        stroke: #fca000;
+      }
+
+      .cls-3 {
+        font-size: 19px;
+        font-family: Ubuntu-Bold, Ubuntu;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Parkir-Icon" transform="translate(-1754.789 -167.783)">
+    <rect id="Rectangle_240" data-name="Rectangle 240" class="cls-1" width="42.056" height="42.056" transform="translate(1754.789 167.783)"/>
+    <g id="Group_143" data-name="Group 143" transform="translate(1759.904 173.38)">
+      <g id="Rectangle_238" data-name="Rectangle 238" class="cls-2" transform="translate(0 0)">
+        <rect class="cls-4" width="31.826" height="30.862" rx="5"/>
+        <rect class="cls-5" x="0.5" y="0.5" width="30.826" height="29.862" rx="4.5"/>
+      </g>
+      <text id="P" class="cls-3" transform="translate(15.517 22.34)"><tspan x="-6.118" y="0">P</tspan></text>
+    </g>
+  </g>
+</svg>

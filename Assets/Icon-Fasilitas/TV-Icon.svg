@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 42.056 42.056">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #febc11;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke: #fca000;
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        fill: #fca000;
+      }
+
+      .cls-4 {
+        fill: #fdcf7e;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+
+      .cls-6, .cls-7, .cls-8 {
+        fill: none;
+      }
+
+      .cls-7 {
+        clip-path: url(#clip);
+      }
+
+      .cls-8 {
+        clip-path: url(#clip-2);
+      }
+    </style>
+    <clipPath id="clip">
+      <use xlink:href="#fill"/>
+    </clipPath>
+    <clipPath id="clip-2">
+      <use xlink:href="#fill-2"/>
+    </clipPath>
+  </defs>
+  <g id="TV-Icon" transform="translate(-1399.775 -277.128)">
+    <rect id="Rectangle_307" data-name="Rectangle 307" class="cls-1" width="42.056" height="42.056" transform="translate(1399.775 277.128)"/>
+    <g id="Group_176" data-name="Group 176" transform="translate(1406.155 286.837)">
+      <g id="Rectangle_308" data-name="Rectangle 308" class="cls-2" transform="translate(0)">
+        <rect class="cls-5" width="29.296" height="18.597"/>
+        <rect class="cls-6" x="0.5" y="0.5" width="28.296" height="17.597"/>
+      </g>
+      <g id="Rectangle_310" data-name="Rectangle 310" class="cls-3" transform="translate(13.257 17.981)">
+        <rect class="cls-5" width="2.783" height="2.615"/>
+        <rect class="cls-6" x="0.5" y="0.5" width="1.783" height="1.615"/>
+      </g>
+      <g id="Rectangle_312" data-name="Rectangle 312" class="cls-3" transform="translate(9.547 19.979)">
+        <path class="cls-5" d="M1.564,0H8.639A1.564,1.564,0,0,1,10.2,1.564v0a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0v0A1.564,1.564,0,0,1,1.564,0Z"/>
+        <path class="cls-6" d="M.97.5H9.233A.47.47,0,0,1,9.7.97v0a.094.094,0,0,1-.094.094H.594A.094.094,0,0,1,.5.97v0A.47.47,0,0,1,.97.5Z"/>
+      </g>
+      <g id="Rectangle_309" data-name="Rectangle 309" class="cls-4" transform="translate(1.947 1.473)">
+        <rect class="cls-5" width="25.402" height="15.652"/>
+        <rect class="cls-6" x="0.5" y="0.5" width="24.402" height="14.652"/>
+      </g>
+    </g>
+    <g id="Rectangle_311" data-name="Rectangle 311" class="cls-2" transform="translate(1421.282 303.37)">
+      <rect id="fill" class="cls-5"/>
+      <path class="cls-7" d="M0,-0.49998999999479565h0.000010000005204346962M0.5,0v0.000010000005204346962M0.000010000005204346962,0.5h-0.000010000005204346962M-0.49998999999479565,0.000010000005204346962v-0.000010000005204346962"/>
+    </g>
+    <g id="Rectangle_313" data-name="Rectangle 313" class="cls-2" transform="translate(1422.56 304.947)">
+      <rect id="fill-2" class="cls-5"/>
+      <path class="cls-8" d="M0,-0.49998999999479565h0.000010000005204346962M0.5,0v0.000010000005204346962M0.000010000005204346962,0.5h-0.000010000005204346962M-0.49998999999479565,0.000010000005204346962v-0.000010000005204346962"/>
+    </g>
+  </g>
+</svg>

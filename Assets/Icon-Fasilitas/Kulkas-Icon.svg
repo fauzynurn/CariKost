@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42.056 42.056">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #febc11;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #fca000;
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        fill: #fca000;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Kulkas-Icon" transform="translate(-1471.27 -283.962)">
+    <rect id="Rectangle_335" data-name="Rectangle 335" class="cls-1" width="42.056" height="42.056" transform="translate(1471.27 283.962)"/>
+    <g id="Group_175" data-name="Group 175" transform="translate(1482.522 288.687)">
+      <g id="Rectangle_336" data-name="Rectangle 336" class="cls-2" transform="translate(0 10.603)">
+        <path class="cls-4" d="M0,0H19.552a0,0,0,0,1,0,0V18.733a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V0A0,0,0,0,1,0,0Z"/>
+        <path class="cls-5" d="M1,.5H18.552a.5.5,0,0,1,.5.5V18.733a1.5,1.5,0,0,1-1.5,1.5H2a1.5,1.5,0,0,1-1.5-1.5V1A.5.5,0,0,1,1,.5Z"/>
+      </g>
+      <g id="Rectangle_338" data-name="Rectangle 338" class="cls-3" transform="translate(13.646 30.755)">
+        <path class="cls-4" d="M0,0H4.235a0,0,0,0,1,0,0V.145a1,1,0,0,1-1,1H1a1,1,0,0,1-1-1V0A0,0,0,0,1,0,0Z"/>
+        <rect class="cls-5" x="0.5" y="0.5" width="3.235" height="0.145" rx="0.072"/>
+      </g>
+      <g id="Rectangle_339" data-name="Rectangle 339" class="cls-3" transform="translate(1.669 30.755)">
+        <path class="cls-4" d="M0,0H4.237a0,0,0,0,1,0,0V.145a1,1,0,0,1-1,1H1a1,1,0,0,1-1-1V0A0,0,0,0,1,0,0Z"/>
+        <rect class="cls-5" x="0.5" y="0.5" width="3.237" height="0.145" rx="0.072"/>
+      </g>
+      <g id="Rectangle_337" data-name="Rectangle 337" class="cls-2">
+        <path class="cls-4" d="M2,0H17.552a2,2,0,0,1,2,2v9.308a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z"/>
+        <path class="cls-5" d="M2,.5H17.552a1.5,1.5,0,0,1,1.5,1.5v8.308a.5.5,0,0,1-.5.5H1a.5.5,0,0,1-.5-.5V2A1.5,1.5,0,0,1,2,.5Z"/>
+      </g>
+      <g id="Rectangle_340" data-name="Rectangle 340" class="cls-3" transform="translate(2.356 13.548)">
+        <rect class="cls-4" width="1.292" height="6.595" rx="0.646"/>
+        <rect class="cls-5" x="0.5" y="0.5" width="0.292" height="5.595" rx="0.146"/>
+      </g>
+      <g id="Rectangle_341" data-name="Rectangle 341" class="cls-3" transform="translate(2.356 3.534)">
+        <rect class="cls-4" width="1.292" height="4.239" rx="0.646"/>
+        <rect class="cls-5" x="0.5" y="0.5" width="0.292" height="3.239" rx="0.146"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg id="Navbar-Cart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.346 24.735">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d4d1d1;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_255" data-name="Rectangle 255" class="cls-1" width="7.051" height="1.923" rx="0.961" transform="translate(0 0.057)"/>
+  <rect id="Rectangle_257" data-name="Rectangle 257" class="cls-1" width="19.871" height="1.923" rx="0.961" transform="translate(6.154 3.185)"/>
+  <rect id="Rectangle_258" data-name="Rectangle 258" class="cls-1" width="12.179" height="1.923" rx="0.961" transform="translate(21.533 15.02) rotate(-76)"/>
+  <rect id="Rectangle_263" data-name="Rectangle 263" class="cls-1" width="12.179" height="1.923" rx="0.961" transform="translate(17.85 15.434) rotate(-90)"/>
+  <rect id="Rectangle_266" data-name="Rectangle 266" class="cls-1" width="12.179" height="1.923" rx="0.961" transform="translate(11.44 15.434) rotate(-90)"/>
+  <rect id="Rectangle_264" data-name="Rectangle 264" class="cls-1" width="16.666" height="1.923" rx="0.961" transform="translate(7.594 8.383)"/>
+  <rect id="Rectangle_259" data-name="Rectangle 259" class="cls-1" width="15.384" height="1.923" rx="0.961" transform="matrix(-0.105, -0.995, 0.995, -0.105, 6.954, 15.501)"/>
+  <rect id="Rectangle_261" data-name="Rectangle 261" class="cls-1" width="9.615" height="1.923" rx="0.961" transform="matrix(-0.105, -0.995, 0.995, -0.105, 7.287, 18.72)"/>
+  <rect id="Rectangle_260" data-name="Rectangle 260" class="cls-1" width="16.666" height="1.923" rx="0.961" transform="translate(23.619 15.434) rotate(-180)"/>
+  <path id="Rectangle_262" data-name="Rectangle 262" class="cls-1" d="M1.282,0H14.1a.641.641,0,0,1,.641.641v.641a.641.641,0,0,1-.641.641H.641A.641.641,0,0,1,0,1.282v0A1.282,1.282,0,0,1,1.282,0Z" transform="translate(22.307 18.639) rotate(-180)"/>
+  <path id="Subtraction_7" data-name="Subtraction 7" class="cls-1" d="M2.564,5.128A2.564,2.564,0,1,1,5.128,2.564,2.567,2.567,0,0,1,2.564,5.128Zm0-3.846A1.282,1.282,0,1,0,3.846,2.564,1.283,1.283,0,0,0,2.564,1.282Z" transform="translate(7.564 19.607)"/>
+  <path id="Subtraction_8" data-name="Subtraction 8" class="cls-1" d="M2.564,5.128A2.564,2.564,0,1,1,5.128,2.564,2.567,2.567,0,0,1,2.564,5.128Zm0-3.846A1.282,1.282,0,1,0,3.846,2.564,1.283,1.283,0,0,0,2.564,1.282Z" transform="translate(16.538 19.607)"/>
+</svg>

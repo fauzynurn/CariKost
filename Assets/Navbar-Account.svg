@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.112 23.112">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d5d5d5;
+      }
+
+      .cls-2 {
+        fill: #bfbfbf;
+      }
+    </style>
+  </defs>
+  <g id="Navbar-Account" transform="translate(1387.465 -715.535)">
+    <circle id="Ellipse_58" data-name="Ellipse 58" class="cls-1" cx="11.556" cy="11.556" r="11.556" transform="translate(-1387.465 715.535)"/>
+    <circle id="Ellipse_57" data-name="Ellipse 57" class="cls-2" cx="3.405" cy="3.405" r="3.405" transform="translate(-1379.412 719.112)"/>
+    <path id="Rectangle_268" data-name="Rectangle 268" class="cls-2" d="M4.087,0h0A4.087,4.087,0,0,1,8.173,4.087V5.751A2.422,2.422,0,0,1,5.751,8.173H2.422A2.422,2.422,0,0,1,0,5.751V4.087A4.087,4.087,0,0,1,4.087,0Z" transform="translate(-1379.996 726.896)"/>
+  </g>
+</svg>

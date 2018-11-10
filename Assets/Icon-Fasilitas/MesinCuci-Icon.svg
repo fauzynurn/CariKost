@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 42.056 42.056">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #febc11;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke: #fca000;
+      }
+
+      .cls-3 {
+        fill: #fca000;
+      }
+
+      .cls-4, .cls-6, .cls-7 {
+        fill: none;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+
+      .cls-7 {
+        clip-path: url(#clip);
+      }
+    </style>
+    <clipPath id="clip">
+      <use xlink:href="#fill"/>
+    </clipPath>
+  </defs>
+  <g id="MesinCuci-Icon" transform="translate(-1754.789 -167.783)">
+    <rect id="Rectangle_240" data-name="Rectangle 240" class="cls-1" width="42.056" height="42.056" transform="translate(1754.789 167.783)"/>
+    <g id="Group_143" data-name="Group 143" transform="translate(1759.904 171.38)">
+      <g id="Rectangle_238" data-name="Rectangle 238" class="cls-2" transform="translate(4 3)">
+        <rect class="cls-5" width="23.826" height="27.862" rx="2"/>
+        <rect class="cls-6" x="0.5" y="0.5" width="22.826" height="26.862" rx="1.5"/>
+      </g>
+      <g id="Rectangle_401" data-name="Rectangle 401" class="cls-2" transform="translate(4 3)">
+        <path class="cls-5" d="M2,0H21.826a2,2,0,0,1,2,2V4.862a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z"/>
+        <path class="cls-6" d="M2,.5H21.826a1.5,1.5,0,0,1,1.5,1.5V3.862a.5.5,0,0,1-.5.5H1a.5.5,0,0,1-.5-.5V2A1.5,1.5,0,0,1,2,.5Z"/>
+      </g>
+      <g id="Rectangle_403" data-name="Rectangle 403" class="cls-2" transform="translate(7 5)">
+        <rect id="fill" class="cls-5" width="2.826" height="0.862" rx="0.431"/>
+        <path class="cls-7" d="M0,0.36163330078125h2.826059341430664M2.326059341430664,0v0.86163330078125M2.826059341430664,0.5h-2.826059341430664M0.5,0.86163330078125v-0.86163330078125"/>
+      </g>
+      <g id="Rectangle_402" data-name="Rectangle 402" class="cls-2" transform="translate(11.587 14.587)">
+        <rect class="cls-5" width="8.652" height="8.655" rx="4.326"/>
+        <rect class="cls-6" x="0.5" y="0.5" width="7.652" height="7.655" rx="3.826"/>
+      </g>
+      <g id="Rectangle_405" data-name="Rectangle 405" class="cls-3" transform="translate(12.587 18.587)">
+        <path class="cls-5" d="M0,0H6.652a0,0,0,0,1,0,0V1.655a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V0A0,0,0,0,1,0,0Z"/>
+        <path class="cls-6" d="M1,.5H5.652a.5.5,0,0,1,.5.5v.655a1.5,1.5,0,0,1-1.5,1.5H2a1.5,1.5,0,0,1-1.5-1.5V1A.5.5,0,0,1,1,.5Z"/>
+      </g>
+      <g id="Rectangle_404" data-name="Rectangle 404" class="cls-4" transform="translate(9.826 12.826)">
+        <rect class="cls-5" width="12.174" height="12.177" rx="6.087"/>
+        <rect class="cls-6" x="0.5" y="0.5" width="11.174" height="11.177" rx="5.587"/>
+      </g>
+    </g>
+  </g>
+</svg>

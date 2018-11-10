@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42.056 42.056">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #fca000;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #fca000;
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        fill: #febc11;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Kursi-Icon" transform="translate(-1414.495 -226.661)">
+    <rect id="Rectangle_295" data-name="Rectangle 295" class="cls-1" width="42.056" height="42.056" transform="translate(1414.495 226.661)"/>
+    <g id="Group_173" data-name="Group 173" transform="translate(1425.857 232.504)">
+      <g id="Rectangle_297" data-name="Rectangle 297" class="cls-2" transform="translate(1.293 18.35)">
+        <path class="cls-4" d="M2.846,0h0a0,0,0,0,1,0,0V11.98a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2.846A2.846,2.846,0,0,1,2.846,0Z"/>
+        <path class="cls-5" d="M2.115.5h0a.231.231,0,0,1,.231.231V11.249a.231.231,0,0,1-.231.231H.731A.231.231,0,0,1,.5,11.249V2.115A1.615,1.615,0,0,1,2.115.5Z"/>
+      </g>
+      <g id="Rectangle_298" data-name="Rectangle 298" class="cls-2" transform="translate(15.553 18.35)">
+        <path class="cls-4" d="M0,0H0A2.846,2.846,0,0,1,2.846,2.846V11.98a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z"/>
+        <path class="cls-5" d="M.731.5h0A1.615,1.615,0,0,1,2.346,2.115v9.134a.231.231,0,0,1-.231.231H.731A.231.231,0,0,1,.5,11.249V.731A.231.231,0,0,1,.731.5Z"/>
+      </g>
+      <g id="Rectangle_299" data-name="Rectangle 299" class="cls-3" transform="translate(1.944 22.133) rotate(-90)">
+        <path class="cls-4" d="M2.157,0H14.225a7.907,7.907,0,0,1,7.907,7.907v0a7.907,7.907,0,0,1-7.907,7.907H0a0,0,0,0,1,0,0V2.157A2.157,2.157,0,0,1,2.157,0Z"/>
+        <path class="cls-5" d="M2.264.5H14.225a7.407,7.407,0,0,1,7.407,7.407v0a7.407,7.407,0,0,1-7.407,7.407H.853A.353.353,0,0,1,.5,14.962V2.264A1.764,1.764,0,0,1,2.264.5Z"/>
+      </g>
+      <g id="Rectangle_296" data-name="Rectangle 296" class="cls-3" transform="translate(0 22.133) rotate(-90)">
+        <path class="cls-4" d="M0,0H2.533a3,3,0,0,1,3,3V16.7a3,3,0,0,1-3,3H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z"/>
+        <path class="cls-5" d="M1,.5H2.533A2.5,2.5,0,0,1,5.033,3V16.7a2.5,2.5,0,0,1-2.5,2.5H1a.5.5,0,0,1-.5-.5V1A.5.5,0,0,1,1,.5Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

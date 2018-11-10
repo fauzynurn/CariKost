@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 375 177.132">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#pattern);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 3000 3000">
+      <image width="3000" height="3000" xlink:href="Maps-Background-Bottom-image.png"/>
+    </pattern>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.502"/>
+    </linearGradient>
+  </defs>
+  <g id="Maps-Background-Bottom" transform="translate(0 -489.868)">
+    <rect id="Rectangle_171" data-name="Rectangle 171" class="cls-1" width="375" height="148.132" transform="translate(0 518.868)"/>
+    <rect id="Rectangle_172" data-name="Rectangle 172" class="cls-2" width="375" height="177.132" transform="translate(0 489.868)"/>
+  </g>
+</svg>
