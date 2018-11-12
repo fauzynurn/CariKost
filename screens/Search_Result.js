@@ -17,12 +17,27 @@ class SearchResult extends Component {
     header: null
   });
   state = {
+    imagesRepo: [],
     height: Dimensions.get("window").height,
     width: Dimensions.get("window").width
   };
+  componentDidMount() {
+    fetch(
+      "https://api.unsplash.com/photos/random?client_id=c6c70e2721dc619d0bb16869cbf4c7e594b90a4b9aed4c6caf64a8cf0bb3e3d1&count=12"
+    )
+      .then(response => response.json())
+      .then(responseJSON => {
+        this.setState({ imagesRepo: responseJSON }, () =>
+          console.log(this.state.imagesRepo)
+        );
+      })
+      .catch(error => {
+        console.log(error);
+      });
+  }
   render() {
     return (
-      <React.Fragment>
+      <View style={{ paddingBottom: this.state.height * 0.17 }}>
         <View
           style={{
             width: "100%",
@@ -107,99 +122,121 @@ class SearchResult extends Component {
             </View>
             <View
               style={{
-                marginLeft: 15,
-                marginRight: 15,
                 marginTop: this.state.height * 0.05
               }}
             >
               <ScrollView
+                style={{ marginTop: 2, height: 40 }}
                 horizontal={true}
+                contentOffset={{ x: 20, y: 0 }}
                 showsHorizontalScrollIndicator={false}
               >
-                <RNChipView
-                  backgroundColor="#ff9523"
-                  title={"Pria"}
-                  height={this.state.height * 0.05}
-                  avatar={false}
-                  titleStyle={{
-                    fontWeight: "normal",
-                    paddingLeft: 10,
-                    color: "white"
-                  }}
-                  cancelable={true}
-                />
-                <RNChipView
-                  backgroundColor="#ff9523"
-                  title={"Pria"}
-                  height={this.state.height * 0.05}
-                  avatar={false}
-                  titleStyle={{
-                    fontWeight: "normal",
-                    paddingLeft: 10,
-                    color: "white"
-                  }}
-                  cancelable={true}
-                />
-                <RNChipView
-                  backgroundColor="#ff9523"
-                  title={"Pria"}
-                  height={this.state.height * 0.05}
-                  avatar={false}
-                  titleStyle={{
-                    fontWeight: "normal",
-                    paddingLeft: 10,
-                    color: "white"
-                  }}
-                  cancelable={true}
-                />
-                <RNChipView
-                  backgroundColor="#ff9523"
-                  title={"Pria"}
-                  height={this.state.height * 0.05}
-                  avatar={false}
-                  titleStyle={{
-                    fontWeight: "normal",
-                    paddingLeft: 10,
-                    color: "white"
-                  }}
-                  cancelable={true}
-                />
-                <RNChipView
-                  backgroundColor="#ff9523"
-                  title={"Pria"}
-                  height={this.state.height * 0.05}
-                  avatar={false}
-                  titleStyle={{
-                    fontWeight: "normal",
-                    paddingLeft: 10,
-                    color: "white"
-                  }}
-                  cancelable={true}
-                />
+                <View style={{ marginLeft: 15, marginRight: 6 }}>
+                  <RNChipView
+                    backgroundColor="#ff9523"
+                    title={"Rp. 300.000"}
+                    theme={1}
+                    height={this.state.height * 0.05}
+                    avatar={false}
+                    titleStyle={{
+                      fontSize: 14,
+                      fontWeight: "normal",
+                      paddingLeft: 4,
+                      color: "white"
+                    }}
+                    cancelable={true}
+                  />
+                </View>
+                <View style={{ marginRight: 6 }}>
+                  <RNChipView
+                    backgroundColor="#ff9523"
+                    title={"Harian"}
+                    height={this.state.height * 0.05}
+                    avatar={false}
+                    titleStyle={{
+                      fontSize: 14,
+                      fontWeight: "normal",
+                      paddingLeft: 10,
+                      color: "white"
+                    }}
+                    cancelable={true}
+                  />
+                </View>
+                <View style={{ marginRight: 10 }}>
+                  <RNChipView
+                    backgroundColor="#ff9523"
+                    title={"Campur"}
+                    height={this.state.height * 0.05}
+                    avatar={false}
+                    titleStyle={{
+                      fontSize: 14,
+                      fontWeight: "normal",
+                      paddingLeft: 10,
+                      color: "white"
+                    }}
+                    cancelable={true}
+                  />
+                </View>
+                <View style={{ marginRight: 10 }}>
+                  <RNChipView
+                    backgroum
+                    ndColor="#ff9523"
+                    title={"Pria"}
+                    height={this.state.height * 0.05}
+                    avatar={false}
+                    titleStyle={{
+                      fontSize: 14,
+                      fontWeight: "normal",
+                      paddingLeft: 10,
+                      color: "white"
+                    }}
+                    cancelable={true}
+                  />
+                </View>
+                <View style={{ marginRight: 10 }}>
+                  <RNChipView
+                    backgroundColor="#ff9523"
+                    title={"Bandung"}
+                    height={this.state.height * 0.05}
+                    avatar={false}
+                    titleStyle={{
+                      fontSize: 14,
+                      fontWeight: "normal",
+                      paddingLeft: 10,
+                      color: "white"
+                    }}
+                    cancelable={true}
+                  />
+                </View>
               </ScrollView>
-              <FlatList
-                style={{ width: "100%" }}
-                data={[
-                  { key: "satu" },
-                  { key: "dua" },
-                  { key: "tiga" },
-                  { key: "empat" },
-                  { key: "tiga" },
-                  { key: "tiga" },
-                  { key: "tiga" },
-                  { key: "tiga" },
-                  { key: "tiga" },
-                  { key: "tiga" },
-                  { key: "tiga" },
-                  { key: "tiga" }
-                ]}
-                numColumns={2}
-                renderItem={item => <SearchResultItem teks={item.key} />}
-              />
+            </View>
+            <View>
+              {this.state.imagesRepo.length === 0 ? (
+                <Text>Please wait</Text>
+              ) : (
+                <View style={{ alignSelf: "center" }}>
+                  <FlatList
+                    style={{
+                      alignSelf: "center",
+                      marginTop: this.state.height * 0.01,
+                      width: "100%"
+                    }}
+                    data={this.state.imagesRepo}
+                    numColumns={2}
+                    renderItem={({ item, index }) => (
+                      <SearchResultItem
+                        marginLeft={index % 2 !== 0 ? 7 : 0}
+                        marginBottom={7}
+                        imageUri={item.urls.regular}
+                      />
+                    )}
+                  />
+                </View>
+              )}
             </View>
           </View>
         </View>
-      </React.Fragment>
+      </View>
     );
   }
 }
