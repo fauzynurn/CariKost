@@ -14,6 +14,7 @@ import {
   Dimensions,
   TextInput,
   View,
+  Keyboard,
   TouchableOpacity,
   StatusBar
 } from "react-native";
@@ -27,19 +28,46 @@ export class Login extends Component {
   });
   state = {
     height: Dimensions.get("window").height,
-    width: Dimensions.get("window").width
+    width: Dimensions.get("window").width,
+    formContainer: Dimensions.get("window").height * 0.29
   };
 
-  componentDidMount() {
-    console.log("height: " + this.state.height);
+  componentWillMount() {
+    this.keyboardDidShowListener = Keyboard.addListener(
+      "keyboardDidShow",
+      this._keyboardDidShow
+    );
+    this.keyboardDidHideListener = Keyboard.addListener(
+      "keyboardDidHide",
+      this._keyboardDidHide
+    );
   }
+
+  componentDidMount() {
+    console.log(this.state);
+  }
+
+  _keyboardDidShow = () => {
+    this.setState({
+      ...this.state,
+      formContainer: this.state.height * 0.15
+    });
+  };
+
+  _keyboardDidHide = () => {
+    this.setState({
+      ...this.state,
+      formContainer: Dimensions.get("window").height * 0.29
+    });
+  };
+
   render() {
     return (
       <React.Fragment>
         <View
           style={{
             width: "100%",
-            height: "50%",
+            height: "48%",
             backgroundColor: "#ff9523",
             borderBottomRightRadius: 8,
             borderBottomLeftRadius: 8
@@ -62,18 +90,18 @@ export class Login extends Component {
         </View>
         <View
           style={{
+            marginTop: this.state.formContainer,
             position: "absolute",
-            justifyContent: "center",
             alignItems: "center",
-            height: "100%",
+            height: this.state.height * 0.36,
             width: "100%"
           }}
         >
           <View
             style={{
               elevation: 5,
-              width: "75%",
-              height: 185,
+              width: "70%",
+              height: "70%",
               borderRadius: 6,
               backgroundColor: "#f7f7f7"
             }}
@@ -146,9 +174,21 @@ export class Login extends Component {
             </View>
           </View>
         </View>
-        <View style={{ width: "85%", height: 90 }}>
+        <View
+          style={{ backgroundColor: "green", height: this.state.height * 0.1 }}
+        />
+        <View
+          style={{
+            width: "85%",
+            position: "relative",
+            backgroundColor: "red"
+          }}
+        >
           <Button
-            style={{ marginTop: 130, padding: 20, alignSelf: "flex-end" }}
+            style={{
+              padding: 14,
+              alignSelf: "flex-end"
+            }}
             rounded
             warning
             onPress={() => this.props.navigation.navigate("Tabs")}
@@ -157,79 +197,89 @@ export class Login extends Component {
           </Button>
         </View>
         <View
-          style={{
-            marginTop: 120,
-            borderBottomColor: "#c6c6c6",
-            borderBottomWidth: 1
-          }}
+          style={{ backgroundColor: "blue", height: this.state.height * 0.05 }}
         />
-        <Text
-          style={{
-            textAlign: "center",
-            color: "#bababa",
-            fontWeight: "bold",
-            marginTop: 15
-          }}
-        >
-          Atau masuk dengan
-        </Text>
         <View
           style={{
-            width: "100%",
-            height: 70,
-            marginTop: 15,
-            flexDirection: "row",
-            justifyContent: "space-evenly"
+            borderTopColor: "#c6c6c6",
+            alignItems: "center",
+            justifyContent: "center",
+            backgroundColor: "skyblue",
+            height: this.state.height * 0.175,
+            borderTopWidth: 1
           }}
         >
-          <Button
-            onPress={() => console.log("Facebook clicked!!")}
+          <Text
             style={{
-              backgroundColor: "#3a5b9b",
-              padding: 55,
-              borderRadius: 9
+              textAlign: "center",
+              color: "#bababa",
+              fontWeight: "bold"
             }}
           >
-            <Image
-              style={{ width: 35, height: 35 }}
-              source={require("../Assets/Facebook-Logo-image.png")}
-            />
-          </Button>
-          <Button
-            onPress={() => console.log("Google clicked!!")}
-            style={{ borderRadius: 9, padding: 55 }}
-            danger
+            Atau masuk dengan
+          </Text>
+          <View
+            style={{
+              width: "100%",
+              height: 70,
+              marginTop: 15,
+              flexDirection: "row",
+              justifyContent: "space-evenly"
+            }}
           >
-            <Image
-              style={{ width: 35, height: 35 }}
-              source={require("../Assets/Google-Logo-image.png")}
-            />
-          </Button>
+            <Button
+              onPress={() => console.log("Facebook clicked!!")}
+              style={{
+                backgroundColor: "#3a5b9b",
+                padding: 55,
+                borderRadius: 9
+              }}
+            >
+              <Image
+                style={{ width: 35, height: 35 }}
+                source={require("../Assets/Facebook-Logo-image.png")}
+              />
+            </Button>
+            <Button
+              onPress={() => console.log("Google clicked!!")}
+              style={{ borderRadius: 9, padding: 55 }}
+              danger
+            >
+              <Image
+                style={{ width: 35, height: 35 }}
+                source={require("../Assets/Google-Logo-image.png")}
+              />
+            </Button>
+          </View>
         </View>
         <View
           style={{
-            borderBottomColor: "#c6c6c6",
-            borderBottomWidth: 1
-          }}
-        />
-        <View
-          style={{
-            flexDirection: "row",
+            borderTopColor: "#c6c6c6",
+            borderTopWidth: 1,
+            width: "100%",
+            height: this.state.height * 0.06,
+            position: "absolute",
             alignItems: "center",
             justifyContent: "center",
-            marginTop: 14
+            bottom: 0
           }}
         >
-          <Text style={{ color: "#bababa", fontWeight: "bold" }}>
-            Belum punya akun?
-          </Text>
-          <TouchableOpacity onPress={() => console.log("Daftar clicked!!")}>
-            <Text
-              style={{ marginLeft: 6, color: "#ff9523", fontWeight: "bold" }}
-            >
-              Daftar
+          <View
+            style={{
+              flexDirection: "row"
+            }}
+          >
+            <Text style={{ color: "#bababa", fontWeight: "bold" }}>
+              Belum punya akun?
             </Text>
-          </TouchableOpacity>
+            <TouchableOpacity onPress={() => console.log("Daftar clicked!!")}>
+              <Text
+                style={{ marginLeft: 6, color: "#ff9523", fontWeight: "bold" }}
+              >
+                Daftar
+              </Text>
+            </TouchableOpacity>
+          </View>
         </View>
       </React.Fragment>
     );
