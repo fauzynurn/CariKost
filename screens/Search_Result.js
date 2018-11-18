@@ -11,6 +11,7 @@ import {
 import Image from "react-native-remote-svg";
 import { RNChipView } from "react-native-chip-view";
 import SearchResultItem from "../components/search_result_item";
+import { Button } from "native-base";
 
 class SearchResult extends Component {
   static navigationOptions = ({ navigation }) => ({
@@ -23,7 +24,7 @@ class SearchResult extends Component {
   };
   componentDidMount() {
     fetch(
-      "https://api.unsplash.com/photos/random?client_id=c6c70e2721dc619d0bb16869cbf4c7e594b90a4b9aed4c6caf64a8cf0bb3e3d1&count=12"
+      "https://api.unsplash.com/photos/random?client_id=c6c70e2721dc619d0bb16869cbf4c7e594b90a4b9aed4c6caf64a8cf0bb3e3d1&count=6"
     )
       .then(response => response.json())
       .then(responseJSON => {
@@ -215,22 +216,48 @@ class SearchResult extends Component {
                 <Text>Please wait</Text>
               ) : (
                 <View style={{ alignSelf: "center" }}>
-                  <FlatList
-                    style={{
-                      alignSelf: "center",
-                      marginTop: this.state.height * 0.01,
-                      width: "100%"
-                    }}
-                    data={this.state.imagesRepo}
-                    numColumns={2}
-                    renderItem={({ item, index }) => (
-                      <SearchResultItem
-                        marginLeft={index % 2 !== 0 ? 7 : 0}
-                        marginBottom={7}
-                        imageUri={item.urls.regular}
+                  <ScrollView
+                    style={{ marginTop: 2, height: 40 }}
+                    horizontal={false}
+                    showsHorizontalScrollIndicator={false}
+                  >
+                    <View>
+                      <FlatList
+                        scrollEnabled={false}
+                        style={{
+                          alignSelf: "center",
+                          marginTop: this.state.height * 0.01,
+                          width: "100%"
+                        }}
+                        data={this.state.imagesRepo}
+                        numColumns={2}
+                        renderItem={({ item, index }) => (
+                          <SearchResultItem
+                            onPress={() => console.log("Item PRESSED")}
+                            marginLeft={index % 2 !== 0 ? 7 : 0}
+                            marginBottom={7}
+                            imageUri={item.urls.regular}
+                          />
+                        )}
                       />
-                    )}
-                  />
+                      <View backgroundColor="blue" flexDirection="row">
+                        <Button
+                          onPress={() => console.log("Google clicked!!")}
+                          style={{ borderRadius: 9, padding: 20 }}
+                          success
+                        >
+                          <Text>1</Text>
+                        </Button>
+                        <Button
+                          onPress={() => console.log("Google clicked!!")}
+                          style={{ borderRadius: 9, padding: 30 }}
+                          success
+                        >
+                          <Text>Next</Text>
+                        </Button>
+                      </View>
+                    </View>
+                  </ScrollView>
                 </View>
               )}
             </View>

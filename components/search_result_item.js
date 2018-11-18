@@ -83,7 +83,7 @@ class SearchResultItem extends Component {
             fontWeight: "bold"
           }}
         >
-          Kosan Wik Wik
+          Kosan Abah
         </Text>
         <Text
           style={{
