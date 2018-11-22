@@ -6,8 +6,10 @@ import {
   Dimensions,
   TouchableOpacity
 } from "react-native";
+import Settings from "./Settings";
 import Image from "react-native-remote-svg";
-class Account extends Component {
+import { createStackNavigator } from "react-navigation";
+export class Account extends Component {
   state = {
     height: Dimensions.get("window").height,
     width: Dimensions.get("window").width
@@ -50,7 +52,7 @@ class Account extends Component {
                 onPress={() => console.log("Logout clicked!!")}
                 style={{
                   fontSize: 16,
-                  right: 0,
+                  right: 10,
                   position: "absolute",
                   color: "red"
                 }}
@@ -58,15 +60,19 @@ class Account extends Component {
                 Logout
               </Text>
             </View>
-            <View style={{ position: "absolute", bottom: 0, right: 0 }}>
-              <Image
-                source={require("../Assets/settings.png")}
-                style={{
-                  marginBottom: 10,
-                  width: 30,
-                  height: 30
-                }}
-              />
+            <View style={{ position: "absolute", bottom: 0, right: 10 }}>
+              <TouchableOpacity
+                onPress={() => this.props.navigation.navigate("Settings")}
+              >
+                <Image
+                  source={require("../Assets/settings.png")}
+                  style={{
+                    marginBottom: 10,
+                    width: 30,
+                    height: 30
+                  }}
+                />
+              </TouchableOpacity>
             </View>
             <View
               style={{
@@ -222,4 +228,17 @@ class Account extends Component {
   }
 }
 
-export default Account;
+export const accountStackNav = createStackNavigator(
+  {
+    Account,
+    Settings
+  },
+  {
+    navigationOptions: {
+      header: null
+    },
+    cardStyle: {
+      backgroundColor: "white"
+    }
+  }
+);

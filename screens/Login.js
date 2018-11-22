@@ -64,6 +64,7 @@ export class Login extends Component {
   render() {
     return (
       <React.Fragment>
+        <StatusBar barStyle="light-content" backgroundColor="#ff9523" />
         <View
           style={{
             width: "100%",

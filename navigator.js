@@ -2,12 +2,12 @@ import React, { Component } from "react";
 import Cart from "./screens/Cart";
 import Home, { homeStackNav } from "./screens/Home";
 import { createBottomTabNavigator } from "react-navigation";
-import Account from "./screens/Account";
+import Account, { accountStackNav } from "./screens/Account";
 import Image from "react-native-remote-svg";
 
 export const Tabs = createBottomTabNavigator(
   {
-    Search: {
+    Home: {
       screen: homeStackNav,
       navigationOptions: {
         tabBarIcon: ({ focused }) => {
@@ -30,7 +30,7 @@ export const Tabs = createBottomTabNavigator(
       }
     },
     Account: {
-      screen: Account,
+      screen: accountStackNav,
       navigationOptions: {
         tabBarIcon: ({ focused }) => {
           const image = focused
