@@ -183,25 +183,15 @@ export class Login extends Component {
             style={{
               elevation: 5,
               width: "70%",
-              height: "76%",
+              flexDirection: "column",
+              height: window.height * 0.28,
               borderRadius: 6,
               backgroundColor: "#f7f7f7"
             }}
           >
-            <Text
-              style={{
-                position: "absolute",
-                bottom: 8,
-                fontSize: 14,
-                right: 8,
-                fontWeight: "bold",
-                color: "#f7bf3d"
-              }}
-            >
-              Lupa password?
-            </Text>
             <View
               style={{
+                flex: 3,
                 width: "100%",
                 height: 150,
                 borderRadius: 6,
@@ -253,6 +243,24 @@ export class Login extends Component {
                 }}
                 placeholder="Password"
               />
+            </View>
+            <View
+              style={{
+                flex: 1,
+                marginRight: 15,
+                justifyContent: "center",
+                alignItems: "flex-end"
+              }}
+            >
+              <Text
+                style={{
+                  fontSize: 14,
+                  fontWeight: "bold",
+                  color: "#f7bf3d"
+                }}
+              >
+                Lupa password?
+              </Text>
             </View>
           </View>
         </Animated.View>
