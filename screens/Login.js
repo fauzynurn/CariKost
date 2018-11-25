@@ -191,58 +191,87 @@ export class Login extends Component {
           >
             <View
               style={{
-                flex: 3,
+                flex: 5,
                 width: "100%",
-                height: 150,
                 borderRadius: 6,
                 backgroundColor: "white"
               }}
             >
-              <Text
-                style={{
-                  color: "#c2c3c4",
-                  marginLeft: 15,
-                  fontWeight: "bold",
-                  marginTop: 15,
-                  fontSize: 15
-                }}
-              >
-                Username
-              </Text>
-              <TextInput
-                style={{
-                  flexDirection: "column",
-                  alignSelf: "center",
-                  width: "80%",
-                  height: 40,
-                  backgroundColor: "white"
-                }}
-                placeholder="Username"
-              />
               <View
-                style={{ borderBottomColor: "#c6c6c6", borderBottomWidth: 1 }}
-              />
-              <Text
                 style={{
-                  color: "#c2c3c4",
-                  marginLeft: 15,
-                  fontWeight: "bold",
-                  marginTop: 7,
-                  fontSize: 15
+                  flex: 2,
+                  width: "100%",
+                  borderBottomColor: "#c6c6c6",
+                  borderBottomWidth: 1
                 }}
               >
-                Password
-              </Text>
-              <TextInput
+                <View
+                  style={{
+                    marginTop: 15,
+                    justifyContent: "center",
+                    flex: 0.5
+                  }}
+                >
+                  <Text
+                    style={{
+                      color: "#c2c3c4",
+                      marginLeft: 15,
+                      width: "80%",
+                      fontWeight: "bold",
+                      fontSize: 15
+                    }}
+                  >
+                    Username
+                  </Text>
+                </View>
+                <View style={{ flex: 1 }}>
+                  <TextInput
+                    style={{
+                      flexDirection: "column",
+                      alignSelf: "center",
+                      width: "80%",
+                      backgroundColor: "white"
+                    }}
+                    placeholder="Username"
+                  />
+                </View>
+              </View>
+              <View
                 style={{
-                  flexDirection: "column",
-                  alignSelf: "center",
-                  width: "80%",
-                  height: 40,
-                  backgroundColor: "white"
+                  flex: 2,
+                  width: "100%"
                 }}
-                placeholder="Password"
-              />
+              >
+                <View
+                  style={{
+                    marginTop: 15,
+                    justifyContent: "center",
+                    flex: 0.5
+                  }}
+                >
+                  <Text
+                    style={{
+                      color: "#c2c3c4",
+                      marginLeft: 15,
+                      fontWeight: "bold",
+                      fontSize: 15
+                    }}
+                  >
+                    Password
+                  </Text>
+                </View>
+                <View style={{ flex: 1 }}>
+                  <TextInput
+                    style={{
+                      flexDirection: "column",
+                      alignSelf: "center",
+                      width: "80%",
+                      backgroundColor: "white"
+                    }}
+                    placeholder="Password"
+                  />
+                </View>
+              </View>
             </View>
             <View
               style={{
